@@ -1,0 +1,57 @@
+/* Stylings for the semantic elements. */
+nav {
+    text-align: center;
+    background-color: #800000;
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+main {
+    text-align: center;
+}
+
+/* Stylings for the sections. */
+#product {
+    border: 5px #800000 solid;
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+#product img {
+    float: left;
+}
+
+/* Stylings for the classes. */
+.absolute-box {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 5px #800000 solid;
+    background-color: #800000;
+    font-size: 25px;
+}
+
+.absolute-box a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.cool-font {
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,18 @@
+/* Semantic Elements */
+nav {
+    display: none;
+}
+
+#navcheck:checked~nav {
+    display: block;
+}
+
+/* Text */
+
+/* Images */
+
+/* Containers */
+
+/* Other */
+
+/* Media Queries */

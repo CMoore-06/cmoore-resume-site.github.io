@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4f03d1b7a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <title>Confirmation</title>
+
+    <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+</head>
+<body>
+
+    <nav> 
+        <i class="fa-solid fa-bed"></i> &nbsp;
+        <a href="index.html">Home</a> &nbsp;
+        <a href="rooms.html">Rooms</a> &nbsp;
+        <a href="request.html">Book Your Stay</a> &nbsp;
+        <i class="fa-solid fa-mug-saucer"></i>
+    </nav>
+    
+    <section id="thankyou">
+        <h1>Thank you for staying at the Haunted Inn!</h1>
+
+        <h3>We hope you enjoy your stay!</h3>
+
+        <script>
+            printQuery();
+        </script>
+<br>
+        <a href="index.html">Back to home page.</a>
+    </section>
+
+     <footer class="request-footer">
+        &copy;2025. All Rights Reserved.
+        <a href="mailto:hauntedinn@outlook.com">hauntedinn@outlook.com</a>
+        <a href="tel:3294206967">329-420-6967</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: lightgrey;
+    border-right: 10px solid navy;
+    border-left: 10px solid navy;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: navy;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgrey;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol {
+    list-style-type: none;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: navy;
+    color: lightgrey;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightgrey;
+    display: inline-block;
+}
