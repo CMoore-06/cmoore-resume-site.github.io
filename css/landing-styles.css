@@ -16,7 +16,7 @@ nav {
 
 header {
     margin-top: 28px;
-    line-height: 0.1;
+    margin: 0px;
 }
 
 body {
@@ -73,6 +73,8 @@ h3, h2 {
 
 header h2 {
     opacity: 0.7;
+    line-height: 1.25;
+    margin-top: 0px;
 }
 
 figcaption {
@@ -230,11 +232,16 @@ label, nav {
         float: right;
     }
 
-    #responsive, #non-responsive {
+    #responsive, #non-responsive, #client {
         width: 100%;
         position: relative;
         left: 1.5rem;
         color: black;
+    }
+
+    /* Remove or edit this CSS once I have more client websites. */
+    #the-lost-coin {
+        justify-self: center;
     }
 
     #fit-for-fitness, #about-a-company {
